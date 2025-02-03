@@ -1,0 +1,33 @@
+@use 'variables' as *;
+
+.hero {
+    padding-top: 64px;
+    padding-bottom: 100px;
+    background-image: url(../images/bg-festa.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+    }
+
+    &::before {
+        content: '';
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: variables.$backGroundColor;
+        opacity: 0.1;
+    }
+
+    &__perfil {
+        margin: 0 auto;
+        width: 100px;
+        border-radius: 10px;
+    }
+}
