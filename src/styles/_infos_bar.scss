@@ -1,0 +1,31 @@
+@use 'variables' as *;
+
+.infos-bar {
+    background-color: $textColor;
+
+    padding: 16px 24px;
+    margin: 15px 80px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    gap: 40px;
+
+    &__infos {
+        display: flex;
+        color: $backGroundColor;
+        gap: 40px;
+
+        &__item {
+            color: $backGroundColor;
+            font-size: 14px;
+
+            b {
+                color: $backGroundColor;
+                font-size: 18px;
+                display: block;
+            }
+        }
+    }
+}

@@ -1,0 +1,7 @@
+@use '../variables' as *;
+
+.button {
+    background-color: $backGroundColorButton;
+    padding: 15px;
+    border-radius: 20px;
+}

@@ -1,9 +1,15 @@
 @use 'variables';
 @use 'hero';
+@use 'infos_bar';
+@use 'components/button';
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     color: variables.$textColor;
+    list-style: none;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    text-decoration: none;
 }
