@@ -13,5 +13,9 @@
   "devDependencies": {
     "@parcel/transformer-sass": "^2.13.3",
     "parcel": "^2.13.3"
+  },
+  "dependencies": {
+    "aos": "^3.0.0-beta.6",
+    "fade": "^0.2.0"
   }
 }

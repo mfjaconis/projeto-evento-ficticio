@@ -72,16 +72,8 @@
   background-image: linear-gradient(#1b6ca7, #442bdb);
 }
 
-.event--cloths {
+.event--attractions {
   background-image: linear-gradient(#442bdb, #892238);
-}
-
-.event--data-science {
-  background-image: linear-gradient(#892238, #9c791d);
-}
-
-.event--backend {
-  background-image: linear-gradient(#9c791d, #892238);
 }
 
 .event--image-left .container {
